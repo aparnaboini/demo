@@ -1,16 +1,5 @@
 package com.demo.maven;
 
-import java.util.Scanner;
-
-/**
- * Hello world!
- *
- */
-
-
-
-
-
 public class Palindrome {
 	
 	public boolean isPalindrome(String inputString) {
@@ -29,17 +18,5 @@ public class Palindrome {
 	           return false;
 	    }
 	}
-	
-	public static void main(String args[]) {
-		
-		
-		Scanner sc=new Scanner(System.in);
-		
-		String str=sc.next();
-		Palindrome p=new Palindrome();
-		System.out.println(p.isPalindrome(str));
-		 
-	}
 
 }
-
